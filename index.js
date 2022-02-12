@@ -3402,8 +3402,17 @@ break
 								mentions(txt, men, true)
 							break
 				case 'payment': case 'pay': case 'donasi': case 'donate':
-				alpha.sendMessage(from, fs.readFileSync(`./image/${setting.donasi}`), image, {caption: 'Scan untuk melakukan pembayaran', quoted: mek, thumbnail: fs.readFileSync(`./image/${setting.donasi}`)})
-				break
+dona = fs.readFileSync('./image/donasi.jpg')
+doni =`*╭─❒ 「 Donasi 」 ──────*
+*│*
+*│*⬡ *Mau donasi apa cuma liat doang?*
+*│*⬡ *PULSA  : 082147334450 [Tsel] => BT1276*
+*│*⬡ *PULSA  : 087742789852 [XL] => BT1276*
+*└───────────────────*
+jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah”
+ [HR. Bukhari 6539, Muslim 1016]`
+alpha.sendMessage(from, dona, image, { quoted: mek, thumbnail: dona, caption: doni })
+break
 				case 'belipremium': case 'buypremium': case 'sewabot': case 'goprem':
 							let sewalak = await getBuffer('https://telegra.ph/file/5e96a14f1ebaee0df2e24.jpg')
 							sendButLocation(from, pc_sewa() , `©  ${ownername}`,sewalak,  [{"buttonId": `payment`,"buttonText": {"displayText": "PAYMENT"},"type": "RESPONSE"}], {})
