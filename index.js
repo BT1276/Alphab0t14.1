@@ -196,7 +196,7 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://zeeoneofc.github.io/'
+apiku = 'https://꧁༒🅑🅣➊➋➐➏࿐꧂.github.io/'
 gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -4386,7 +4386,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    tahta = await getBuffer(`${ApiZeks}/api/hartatahta?text=${F}&apikey=${zeksApikey}`)
-                   tahtah = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   tahtah = `${lang.success()}\n\nPleas Follow https:/instagram.com/bima.t.e`
                    sendImageMaker(tahta, tahtah, sender)
                   await  limitAdd(sender, limit)
                   break
@@ -4395,7 +4395,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytgold = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytgoldp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytgoldp = `${lang.success()}\n\nPleas Follow https:/instagram.com/bima.t.e`
                    sendImageMaker(ytgold, ytgoldp, sender)
                    await  limitAdd(sender, limit)
                    break  
@@ -4404,7 +4404,7 @@ case 'tahta':
                    F = q
                    reply(lang.wait())
                    ytsilver = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytsilverp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytsilverp = `${lang.success()}\n\nPleas Follow https:/instagram.com/bima.t.e`
                    sendImageMaker(ytsilver, ytsilverp, sender)
                    await  limitAdd(sender, limit)
                    break              
